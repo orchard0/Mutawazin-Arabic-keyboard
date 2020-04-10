@@ -27,4 +27,5 @@ Workman:
 
 **Finger and Hand Percentages**
 
+ا and ل are the most frequently occuring letters (accounting for around 24% of all letters) and therefore it makes sense to have them on the 'bump' keys (the natural resting place of the strong index fingers). This is easier then streching the index fingers horizontally. 
 
