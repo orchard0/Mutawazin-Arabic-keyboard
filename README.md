@@ -57,8 +57,8 @@ _OJ Bucao_ correctly observed in his design of the English Workman keyboard that
 
 Moreover vertical movement is natural to the fingers, whereas horizontal and diagonal stretching is uncomfortable. Hence the most occurring letters/ligatures need to be on keys that are the easiest to press; this will increase comfort, efficiency (finger travel) and therefore speed. Based on these observations the keyboard can be divided into 5 zones of comfort. (See the picture below.):
 
-![](RackMultipart20200415-4-xb8o1m_html_825d17ce3aed78b3.png)
-![](RackMultipart20200415-4-xb8o1m_html_256cb330debd935f.png)
+![Keyboard comfort zones](https://github.com/orchid6/Mutawazin-Arabic-keyboard/blob/master/Keyboard%20zones%20of%20comfort.png)
+<img src="https://github.com/orchid6/Mutawazin-Arabic-keyboard/blob/master/Keyboard%20zones%20of%20comfort%20legend.png" alt="Legend" width="200"/>
 
 1. The Core Zone is the easiest to type and mainly consists of the home keys plus stretching for the middle and ring fingers and folding for the index finger.
 2. The Inner Zone is a level slightly harder than the previous one: This zone includes two keys for each index finger that requires only a slight diagonal fold for the bottom key and a slight vertical stretch for the top key.
@@ -68,7 +68,7 @@ Moreover vertical movement is natural to the fingers, whereas horizontal and dia
 
 Based on these observations and principles and the letter frequencies given above the following keyboard has been designed:
 
-![](RackMultipart20200415-4-xb8o1m_html_68d70f1fda0851bd.png)
+![Mutawazin Arabic Keyboard](https://github.com/orchid6/Mutawazin-Arabic-keyboard/blob/master/Mutawazin%20Arabic%20Keyboard.png)
 
 The colour&#39;s represent the different keys for each finger. Note how each finger is curving slightly outward.
 
