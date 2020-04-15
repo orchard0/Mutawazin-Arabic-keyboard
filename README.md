@@ -1,4 +1,4 @@
-# لوحة مفاتيح متوازنة – Mutawazin (balanced) keyboard: speedy, efficient and comfortable.
+# لوحة مفاتيح متوازنة – Mutawazin keyboard: an efficient and comfortable Arabic keyboard
 
 Inspired by the design principles of OJ Bucao’s Workman keyboard I redesigned the Arabic keyboard with comfort, efficiency and speed in mind.
 
