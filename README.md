@@ -1,5 +1,23 @@
 # لوحة مفاتيح متوازنة – Mutawazin (balanced) keyboard: speedy, efficient and comfortable.
 
+Inspired by the design principles of OJ Bucao’s Workman keyboard I redesigned the Arabic keyboard with comfort, efficiency and speed in mind.
+
+![Mutawazin Keyboard Layout](https://github.com/orchid6/Mutawazin-Arabic-keyboard/blob/master/Mutawazin%20Arabic%20Keyboard.png) 
+
+Advantages: 
+* 60% of the load is on the eight home keys! This means less finger moment compared to PC  (33%) and MAC (33%).
+* 80% of the load is now on the easiest to type keys. MAC (47%) and PC (43%)
+* Comfortable and efficient — frequent keys are placed within the natural range of motion of the fingers.
+* Reduced lateral movement of the fingers and wrists.
+* Very, very low overall finger travel.
+* 50/50 balanced left and right hand load
+* Lowest load on «Shift Key» use to type letters (6.5%). PC (7.2%); MAC (7.0%).
+* Lowest load in the harder to reach middle column and end area of the keyboard (4%). PC (34%); MAC (32%).
+* Lowest load on the right pinky (6%). MAC (8%) and PC (10%).
+* For the top 300 bigrams (letters that occur together like ا and ل) Mutawazin has the lowest percentage typed on the same finger (2.9%) and the lowest lowest percentage typed by the same hand (10.9%). MAC (3.6% and 11.3%) and PC (3.0% and 11.7%). 
+* Familiar location for punctuation keys.
+* Features all eight diacritics (Tashkil) marks on one hand placed in order of frequency.
+
 # Data analysis:
 
 Character and bigram frequencies were calculated using over 25,000 pages from over 150 books (including the Quran).
