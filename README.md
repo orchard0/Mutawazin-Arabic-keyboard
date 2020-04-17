@@ -1,24 +1,39 @@
-# لوحة مفاتيح متوازنة – Mutawazin keyboard: an efficient and comfortable Arabic keyboard
+# لوحة مفاتيح متوازنة – Mutawazin keyboard layout
 
-Inspired by the design principles of OJ Bucao’s Workman keyboard I redesigned the Arabic keyboard with comfort, efficiency and speed in mind.
+## A comfortable, speedy and efficient Arabic keyboard layout
+
+Inspired by the design principles of OJ Bucao’s English *Workman keyboard layout* I redesigned the Arabic keyboard layout with comfort, speed and efficiency in mind.
 
 ![Mutawazin Keyboard Layout](https://github.com/orchid6/Mutawazin-Arabic-keyboard/blob/master/Mutawazin%20Arabic%20Keyboard.png) 
 
-Advantages: 
-* 60% of the load is on the eight home keys! This means less finger moment compared to PC  (33%) and MAC (33%).
-* 80% of the load is now on the easiest to type keys. MAC (47%) and PC (43%)
-* Comfortable and efficient — frequent keys are placed within the natural range of motion of the fingers.
-* Reduced lateral movement of the fingers and wrists.
-* Very, very low overall finger travel.
-* 50/50 balanced left and right hand load
-* Lowest load on «Shift Key» use to type letters (6.5%). PC (7.2%); MAC (7.0%).
-* Lowest load in the harder to reach middle column and end area of the keyboard (4%). PC (34%); MAC (32%).
-* Lowest load on the right pinky (6%). MAC (8%) and PC (10%).
-* For the top 300 bigrams (letters that occur together like ا and ل) Mutawazin has the lowest percentage typed on the same finger (2.9%) and the lowest lowest percentage typed by the same hand (10.9%). MAC (3.6% and 11.3%) and PC (3.0% and 11.7%). 
+Here’s the quick summary, full details and discussion follows the install instructions.
+
+### Advantages: 
+* 60% load on the eight home keys = less finger moment compared to PC (33%) and MAC (33%).
+* 80% load on the core zone (the easiest keys): MAC (47%) and PC (43%).
+* Lowest load (4%) in the harder to reach middle column and end area of the keyboard: MAC (32%) and PC (34%).
+* Frequent letters are placed within the natural motion of the fingers = comfortable, efficiency and speed. Also less lateral movement of the fingers and wrists = less pain if that’s an issue for you.
+* Very, very low overall finger travel: save up to 43% in distance and 7 hours if typing out the Quran.
+* Only 10.6% same finger bigrams load compared to MAC (16.6%) and PC (12.7%). That means more alternation between the fingers for faster typing.
+* Only 43.9% same hand bigrams load compared to MAC (48.2%) and PC (47.1%). That means more alternation between the hands for faster typing.
+* 50/50 load balance between left and right hand.
+* Lowest load (6.5%) on «Shift Key» to type letters: MAC (7.0%) and PC (7.2%).
 * Familiar location for punctuation keys.
 * Features all eight diacritics (Tashkil) marks on one hand placed in order of frequency.
 
-# Data analysis:
+#### Disadvantages:
+* Need to learn a new layout – but remember you only need to learn once but move your fingers and wrists each time. They deserve better.
+
+# Installation
+
+## Linux
+Available: 18th April 2020
+## Windows
+Available: 24th April 2020
+## Mac
+Coming soon.
+
+# Full detailed analysis and design principles:
 
 Character and bigram frequencies were calculated using over 25,000 pages from over 150 books (including the Quran).
 
