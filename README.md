@@ -27,7 +27,7 @@ Here’s the quick summary, full details and discussion follows the install inst
 # Installation
 
 ## Linux
-Available: 18th April 2020
+Available: 24th April 2020
 ## Windows
 Available: 24th April 2020
 ## Mac
