@@ -9,173 +9,223 @@ Inspired by the design principles of OJ Bucao’s English *Workman keyboard layo
 Here’s the quick summary, full details and discussion follows the install instructions.
 
 ### Advantages: 
-* 60% load on the eight home keys = less finger moment compared to PC (33%) and MAC (33%).
-* 80% load on the core zone (the easiest keys): MAC (47%) and PC (43%).
-* Lowest load (4%) in the harder to reach middle column and end area of the keyboard: MAC (32%) and PC (34%).
-* Frequent letters are placed within the natural motion of the fingers = comfortable, efficiency and speed. Also less lateral movement of the fingers and wrists = less pain if that’s an issue for you.
-* Very, very low overall finger travel: save up to 43% in distance and 7 hours if typing out the Quran.
-* Only 10.6% same finger bigrams load compared to MAC (16.6%) and PC (12.7%). That means more alternation between the fingers for faster typing.
-* Only 43.9% same hand bigrams load compared to MAC (48.2%) and PC (47.1%). That means more alternation between the hands for faster typing.
-* 50/50 load balance between left and right hand.
-* Lowest load (6.5%) on «Shift Key» to type letters: MAC (7.0%) and PC (7.2%).
-* Familiar location for punctuation keys.
-* Features all eight diacritics (Tashkil) marks on one hand placed in order of frequency.
+* __63% load on the eight home keys__ -> less finger moment compared to PC (33%) and MAC (34%).
+* __80% load on the easiest key__: PC (41%) and Apple (45%). 
+* __4% load on the hardest to reach areas__ of the keyboard: PC and Apple (37%). 
+* __Respects the natural motion of the fingers__ -> more comfort, speed and efficiency. Less lateral movement of the fingers and wrists -> less pain (if that’s an issue for you).
+* __Compact design__ to reduce finger travel: very, very low overall finger travel: save 43% in finger moment and 7 hrs 10 mins if typing out the Quran.
+* __7% same finger bigram load__ compared to PC (10%) and Apple (15%); more alternation between the fingers for faster typing.
+* __43% same hand bigram load__ compared to PC (46%) and Apple (45%); more alternation between the hands for faster typing.
+* __51/49 load balance between left and right hand__.
+* __Familiar location for punctuation keys__.
+* __All eight diacritics (Tashkil) marks on *two* fingers__ arranged to maximise ease of use.
 
 #### Disadvantages:
-* Need to learn a new layout – but remember you only need to learn once but move your fingers and wrists each time. They deserve better.
+* Learn a new layout – but remember you only need to __learn once but move your fingers and wrists each time__. It'll feel so good to learn something new and benefit yourself.
 
 # Installation
 
 ## Linux
-Available: 24th April 2020
+Coming soon.
 ## Windows
-Available: 24th April 2020
+Coming soon.
 ## Mac
 Coming soon.
 
-# Full detailed analysis and design principles:
+# Full details and analysis:
 
-Character and bigram frequencies were calculated using over 25,000 pages from over 150 books (including the Quran).
+## The design philosophy
 
-Total biagrams: 15,328,257
-Total letters analysed = 20,243,768
-Total characters removed from analysis (these include numerals, punctuation, space, Latin letters and so forth): 6,203,330
+### The keyboard zones:
 
-## Letter frequencies:
+_OJ Bucao_ correctly observed in his design of the (_English) Workman keyboard layout_ that some fingers like the index and middle finger are much stronger than say the pinky finger. Therefore more load should be placed on these fingers. Furthermore it is easier for longer fingers like the middle and ring fingers to stretch and easier for shorter fingers like the index and pinky fingers to fold.
 
-| **Position** | **Letter** | **Weight** |
-| --- | --- | --- |
-| 1 | ا | 13.77% |
-| 2 | ل | 11.00% |
-| 3 | ي | 6.86% |
-| 4 | ن | 6.31% |
-| 5 | م | 5.68% |
-| 6 | و | 5.09% |
-| 7 | ه | 4.78% |
-| 8 | ر | 4.41% |
-| 9 | ت | 4.13% |
-| 10 | ع | 3.88% |
-| 11 | ق | 3.22% |
-| 12 | س | 2.90% |
-| 13 | د | 2.79% |
-| 14 | ب | 2.66% |
-| 15 | ك | 2.63% |
-| 16 | أ | 2.51% |
-| 17 | ة | 2.39% |
-| 18 | ف | 1.79% |
-| 19 | ح | 1.61% |
-| 20 | ج | 1.33% |
-| 21 | ى | 1.12% |
-| 22 | ذ | 1.03% |
-| 23 | ط | 0.94% |
-| 24 | ص | 0.88% |
-| 25 | خ | 0.86% |
-| 26 | ض | 0.82% |
-| 27 | ث | 0.75% |
-| 28 | ش | 0.74% |
-| 29 | إ | 0.69% |
-| 30 | غ | 0.54% |
-| 31 | ز | 0.53% |
-| 32 | ء | 0.47% |
-| 33 | ظ | 0.28% |
-| 34 | ئ | 0.26% |
-| 35 | آ | 0.22% |
-| 36 | ؤ | 0.12% |
-
-There are only 28 letters in the Arabic alphabet but some letters like ء take up to 5 different ligature forms depending on their position in the word; some ligatures of ء like أ occur 530% more often than the pure form. This is a very important consideration. The letter ء including all it&#39;s ligatures has a combined frequency of 4.05%. (That would be below the ت in position 10 in the table above.) Putting all these ligatures in one key would require the too much use of the «Shift Key» as well as the use of the «Alt-Gr Key» and «Shift Key» + «Alt-Gr Key» combo and it would still leave one ligature left. Use of the shift keys needs to be minimised for both comfort and speed. Plus common ligatures need to be given their own keys.
-
-## The keyboard zones:
-
-_OJ Bucao_ correctly observed in his design of the English Workman keyboard that some fingers like the index and middle finger are much stronger than the pinky finger. Therefore more load should be placed on these fingers. Furthermore it is easier for longer fingers like the middle and ring fingers to stretch and easier for shorter fingers like the index and pinky fingers to fold.
-
-Moreover vertical movement is natural to the fingers, whereas horizontal and diagonal stretching is uncomfortable. Hence the most occurring letters/ligatures need to be on keys that are the easiest to press; this will increase comfort, efficiency (finger travel) and therefore speed. Based on these observations the keyboard can be divided into 5 zones of comfort. (See the picture below.):
+Moreover _vertical_ movement is natural to the fingers, whereas _horizontal_ and _diagonal_ stretching is uncomfortable. So the most occurring letters need to be on keys that are the easiest to press; this will increase comfort, efficiency (finger travel) and therefore speed. Based on these observations the keyboard can be divided into 5 zones of comfort.
 
 ![Keyboard comfort zones](https://github.com/orchid6/Mutawazin-Arabic-keyboard/blob/master/Keyboard%20zones%20of%20comfort.png)
 <img src="https://github.com/orchid6/Mutawazin-Arabic-keyboard/blob/master/Keyboard%20zones%20of%20comfort%20legend.png" alt="Legend" width="200"/>
 
-1. The Core Zone is the easiest to type and mainly consists of the home keys plus stretching for the middle and ring fingers and folding for the index finger.
-2. The Inner Zone is a level slightly harder than the previous one: This zone includes two keys for each index finger that requires only a slight diagonal fold for the bottom key and a slight vertical stretch for the top key.
-3. The Outer Zone is slightly less uncomfortable then the previous zone. Here the long middle and ring fingers need to fold which is harder for them then stretching and the short pinky finger does both stretching and folding. (Although it is easier for the short pinky finger to fold these bottom keys are included in this zone because the pinky is overall the weakest finger on the hand and so the load on it needs to be minimised.)
-4. Right in the centre is the Middle Column, this is a challenging place even for the strong index finger to reach because a high degree of uncomfortable horizontal and vertical stretching is required. Hence the use of these keys need to be minimised as much as possible.
-5. Finally the End Zone includes the rest of the keys. It&#39;s the most challenging zone on the keyboard because firstly the weak pinky needs to be used and secondly it is required to significantly stretch horizontally and vertically. This should be a place of last resort as the whole wrist and hand may need to be moved to reach these keys. Therefore this zone is most suitable for rarely used but still necessary punctuation marks.
+1) The keys in the Core Zone are the easiest to press. The zone mainly consists of the home keys plus stretching for the middle and ring fingers and folding for the index finger.
 
-Based on these observations and principles and the letter frequencies given above the following keyboard has been designed:
+2) The Inner Zone is a level slightly harder than the previous one: This zone includes two keys for each index finger that requires only a slight diagonal fold for the bottom key and a slight vertical stretch for the top key.
 
-![Mutawazin Arabic Keyboard](https://github.com/orchid6/Mutawazin-Arabic-keyboard/blob/master/Mutawazin%20Arabic%20Keyboard.png)
+3) The Outer Zone is slightly less uncomfortable then the previous zone. Here the long middle and ring fingers need to fold which is harder for them then stretching and the short pinky finger does both stretching and folding. (Although it is easier for the short pinky finger to fold these bottom keys are included in this zone because the pinky is overall the weakest finger on the hand and so the load on it needs to be minimised.)
 
-The colour&#39;s represent the different keys for each finger. Note how each finger is curving slightly outward.
+4) The Middle Column, this is a challenging place even for the strong index finger to reach because a high degree of uncomfortable horizontal and vertical stretching is required. Hence the use of these keys need to be minimised as much as possible.
 
-Let&#39;s do some statistical analysis and compare Mutawazin to the Apple&#39;s Arabic keyboard and the IBM/PC&#39;s Arabic keyboard, the standard keyboards on laptops and desktops worldwide.
+5) Finally the End Zone includes the rest of the keys. It&#39;s the most challenging zone on the keyboard because firstly the weak pinky needs to be used and secondly it is required to significantly stretch horizontally and vertically. This should be a place of last resort as the whole wrist and hand may need to be moved to reach these keys. Therefore this zone is most suitable for rarely used but still necessary punctuation marks.
+
+### Other considerations
+
+- **Same finger Utilisation** : the same principle applies for fingers; it is faster to alternate between fingers even if on the same hand then to type key pairs with the same finger whilst other fingers are idle. Therefore Same Finger Utilisation should be low.
+- **Same Hand Utilisation** : It&#39;s faster to use different hands to type a key pair (bigram like لا) than it&#39;s for the fingers to reach because it allows for the finger on the other hand to move into position before the press is required. Therefore Same Hand Utilisation should be low.
+- **Load balance:** There should be balance between the load of keystrokes for each hand and for each type of finger. This will distribute the work to both hands, reduce strenuous load on one hand or one type of finger and therefore lead to more comfort, longer continuous typing sessions and so better speed.
+- **Shift Key:** The use of the «Shift Key» should be minimised because it a) slows down typing and b) adds load to the pinky fingers.
+
+## Letter frequency data:
+
+Letter and letter pair (bigram) frequencies were calculated from the Arabic Leipzig Corpora Collection (Leipzig University). This source consists mainly of Arabic news websites.
+
+**Stats**
+
+**Words** : 210,563,004
+
+**Arabic letters and ligatures** : 1,038,382,302
+
+**Bigrams** : 821,555,724
+
+**Sentences** : 9.9 million.
+
+### Letter frequencies:
+
+
+|| **Letter** | **Count** | **Percent** |
+| --- | --- | --- | --- |
+| 1 | ا | 162,092,509 | 15.61% |
+| 2 | ل | 120,020,126 | 11.56% |
+| 3 | ي | 80,348,056 | 7.74% |
+| 4 | م | 65,041,978 | 6.26% |
+| 5 | و | 56,336,237 | 5.43% |
+| 6 | ن | 54,614,976 | 5.26% |
+| 7 | ر | 48,712,444 | 4.69% |
+| 8 | ت | 47,634,551 | 4.59% |
+| 9 | ب | 35,425,341 | 3.41% |
+| 10 | ع | 34,058,401 | 3.28% |
+| 11 | ة | 33,005,989 | 3.18% |
+| 12 | د | 31,360,729 | 3.02% |
+| 13 | ف | 26,646,185 | 2.57% |
+| 14 | س | 25,896,142 | 2.49% |
+| 15 | ه | 25,322,511 | 2.44% |
+| 16 | ق | 23,077,659 | 2.22% |
+| 17 | ك | 20,086,770 | 1.93% |
+| 18 | ح | 18,870,539 | 1.82% |
+| 19 | أ | 18,199,623 | 1.75% |
+| 20 | ج | 14,372,356 | 1.38% |
+| 21 | ش | 9,912,424 | 0.95% |
+| 22 | ط | 9,691,876 | 0.93% |
+| 23 | ص | 9,630,608 | 0.93% |
+| 24 | ى | 9,200,659 | 0.89% |
+| 25 | خ | 8,544,594 | 0.82% |
+| 26 | إ | 7,384,982 | 0.71% |
+| 27 | ض | 6,939,174 | 0.67% |
+| 28 | ذ | 6,691,257 | 0.64% |
+| 29 | ز | 6,511,089 | 0.63% |
+| 30 | ث | 5,621,929 | 0.54% |
+| 31 | ئ | 4,628,974 | 0.45% |
+| 32 | غ | 4,112,863 | 0.40% |
+| 33 | ء | 3,616,524 | 0.35% |
+| 34 | ظ | 2,306,589 | 0.22% |
+| 35 | ؤ | 1,409,861 | 0.14% |
+| 36 | آ | 1,055,777 | 0.10% |
+
+There are 28 letters in the Arabic alphabet but some letters like ء (hamza) take up to 5 different forms (ligatures) depending on their position in the word. More on this later.
+
+Based on the letter frequencies and the keyboard zones; the most frequent letters like ا and ل need to be placed on the home keys and rarely used letters like ظ (zah) and غ(ghain)can not justify their own key.
+
+Some ligatures of ء like أ (_Alef with Hamza Above_) occur 503% more often than the pure form. In fact _Alef with Hamza Above_ is 19th on the table that&#39;s higher than 17 other letters and ligatures! These ligatures should be given their own key because they are very frequent.
+
+The letter ء including all of it&#39;s ligatures has a combined frequency of 3.36%. That&#39;s position 10 in the table above. Putting all these letter forms in one key would increase the use of the «Shift Key» as well as the use of the «Alt-Gr Key» and «Alt-Gr Key» + «Shift Key» combo and it would still leave one form left. Use of the «Shift Key» needs to be minimised for both comfort and speed.
+
+Some letters can be combined and need to be, in order to prevent a sprawl of letter into the end and middle column zones. It&#39;s effective to do so because their frequencies are very low and it will be easy to remember them because they are the same shape as their more frequently occurring sister. For example, ط (Tah) can be combined with ظ (zah).
+
+Based on these frequencies and the design principles outlined above Mutawazin was designed.
+
+Let&#39;s do some statistical analysis and compare Mutawazin to the Apple&#39;s Arabic keyboard and IBM/PC&#39;s Arabic keyboard the standard keyboards on laptops and desktops worldwide.
 
 ## The home keys and keyboard zones:
 
-On the eight home keys, the natural resting place of the fingers, Mutawazin boasts a 60% load compared to 33% for Apple and IBM. That&#39;s equivalent to pressing 600 in every 1000 keys on Mutawazin compared to only 330 on Apple and IBM. This means that your fingers don&#39;t move as much which is more efficient, comfortable and faster.
+Firstly, on the eight home keys, the natural resting place of the fingers, Mutawazin boasts a 61% load compared to 33% for Apple and 34% for PC. That&#39;s equivalent to pressing 63 in every 100 keys without moving a finger. This is more efficient, comfortable and so faster.
 
-The core zone includes the home keys and the next six easiest to type keys. The more time fingers spend here the more comfortable and efficient they will be. On Mutawazin the core zone has a load of 800 out of every 1000 keystrokes compared to only 470 on the Apple and 430 on the IBM. This means you will type 172% more in this zone compared to Apple and 186% more compared to IBM. That&#39;s a lot of saved finger and wrist movement!
+Second, the core zone includes the home keys and the next six easiest to type keys. The more time fingers spend here the more comfortable and efficient they will be. On Mutawazin the core zone has a load of 81 out of every 100 keystrokes compared to only 41 PC and 45 on Apple. This means you will type 198% more in this comfortable zone compared to PC and 172% more compared to Apple. That&#39;s a lot of finger and wrist movement saved!
 
-Now including the next easiest zone, the inner zone, with Mutawazin you will type 850 out of every 1000 keystrokes and in Apple 580 and on IBM 560.
+Third, in the challenging middle column that requires horizontal and diagonal stretching, Mutawazin has a load of only 4 out of every 100 keystrokes. On PC and Apple it&#39;s 33 out of every 100 keystrokes. That&#39;s a lot of uncomfortable index fingers&#39; stretching reduced.
 
-Significantly, 1 in 10,000 keystrokes will be in the end zone, the most difficult zone, and only for punctuation marks not letters unlike IBM and Apple. On IBM it&#39;s 600 in 10,000 keystrokes in this zone and on Apple 390 in 10,000 keystrokes.
+Finally, on Mutawazin there are no letter keystrokes in the most difficult zone, the end zone. On PC it&#39;s 6 in every 100 keystrokes and on Apple 5 in 100 keystrokes.
 
-The keyboard has been designed to reduce load as you move your finger&#39;s out of the core zone. (Could say more on this).
+Mutawazin has been designed to reduce load and therefore the difficulty of typing as you move your fingers out of the core. This is what makes typing more comfortable and enjoyable.
 
-## Finger and hand loads and balance:
+# Finger and hand loads and balance:
 
-The load decreases to zero moving out from the core zone, whereas in Apple&#39;s and IBM&#39;s it increases again significantly for the middle column from 6% in the outer zone to 28% in the middle column for Apple and 9% to 28% for IBM.
+For maximum efficiency in typing the weight should be distributed between each type of finger whilst taking into account the relative strength of each finger. Give too much work to the index finger misses out on work that could be done on other fingers, especially the middle finger. There needs to be better weight distribution.
 
-For maximum efficiency in typing the weight should be distributed between each type of finger whilst taking into account the relative strength of each finger. Give too much work to the index finger misses out on work that could be done on other fingers. See how the finger compar in Mutawazin: 45% (index) → 25% (middle) → 19% (ring)→ 11% (pinky).
+See how the fingers compare in Mutawazin: 35% (index) → 34% (middle) → 18% (ring)→ 14% (pinky).
 
-Apple: 57% (index) → 21% (middle) → 12% (ring)→ 10% (pinky).
+PC: 55% (index) → 22% (middle) → 12% (ring)→ 12% (pinky).
 
-IBM: 51% (index) → 25% (middle) → 12% (ring)→ 13% (pinky). The pinky has more work then the middle!
+Apple: 62% (index) → 18% (middle) → 11% (ring)→ 10% (pinky).
 
-Looking at the weight profiles for each finger it&#39;s clear that the index fingers in both Apple and IBM do more work (57% and 51% respectively) compared to Mutawazin&#39;s 45%. This may seem a good thing however reaching for the difficult middle column is not easy for the index finger. It involves difficult horizontal and diagonal stretching. In both Apple and IBM the middle column load is 28% compared to only 4% in Mutawazin!
+Looking at the weight profiles for each finger it&#39;s clear that the index fingers in both PC and Apple do more work (55% and 62% respectively) compared to Mutawazin&#39;s 35%. This may seem a good thing however reaching for the difficult middle column is not easy for the index finger. It involves difficult horizontal and diagonal stretching as mentioned already.
 
-The weakest fingers are the pinkies so the load on them needs to be minimised. Mutawazin&#39;s total pinky load is 11%, Apple&#39;s is 10% and IBM&#39;s 12%. Although Apple&#39;s is lower then Mutawazin, it&#39;s only 10 less keys in every 1000 keystrokes. More importantly however is the balance between the right and left pinky. On Apple&#39;s keyboard the right pinky has to do more work than the left pinky, which is not great for the right pinky. For every 16 keystrokes on the left pinky the right has 82 keystrokes. On Mutawazin for every 56 keystrokes on the left pinky the right has 58. This is excellent balance between the pinkies, the weakest fingers, and so less tiredness of one pinky.
+The weakest fingers are the pinkies, so the load on them needs to be minimised. Mutawazin&#39;s total pinky load is 14%, PC is 12% and Apple is 10%. Although both Apple&#39;s and PC&#39;s is lower then Mutawazin, it&#39;s important to note that 11% of the load in Mutawazin is on the pinky home keys. Whereas in both PC and Apple it&#39;s only 3% on the pinky home keys. So only 3% of the load for the pinky is in harder to reach positions in Mutawazin, whereas in PC and Apple it&#39;s 9% and 7% respectively.
 
-The other fingers are also a like the are all balanced between left and right with the biggest difference in load being only 1%.
-
-The balance between each hand is 50% on Mutawazin! Compare this with Apple&#39;s left hand load of 38% and right hand load of 62% and IBM&#39;s left hand load of 39% and right hand load of 61%. The right hand in both have more load.
+The balance between each hand is 51%/49% on Mutawazin! Compare this with Apple&#39;s left hand load of 42% and right hand load of 58% and PC&#39;s left hand load of 39% and right hand load of 61%.
 
 ## Letters via «Shift Key».
 
-On Apple 7.0% of load is on letters accessed via the «Shift Key». On IBM it&#39;s 7.2% and on Mutawazin it&#39;s 6.5%. This means that you will on average need to press the shift key only 65 times in every 1000 keystrokes saving 7 presses on the IBM and 5 presses on Apple. So although at first it may appear that too many important letters can only be accessed by the «Shift Key» the data clearly shows that it&#39;s just an illusion and it&#39;s an improvement over IBM and Apple. Only the least frequent letters are accessed by the «Shift Key».
+On Apple 4.4% of load is on letters accessed via the «Shift Key». On PC it&#39;s 2.6% and on Mutawazin it&#39;s 3.5%. This is a lower shift load then apple for the same number of keys. Yes you would press the shift key 1% less on PC but given it&#39;s full keyboard letter spread in effect it would be easier to press the shift key then to reach for some letters with the pinky on the edges of the keyboard.
+
+## Finger travel and time saving:
+
+The finger travel is the distance a finger moved from the centre of its home key to press the centre of the required key and then return home. If the next key is the same key as the previous key or if the key need is a home key no additional distance is added.
+
+To write the Quran (72,010 words) would require a distance of 9063 (meters) on Apple, 9090m on PC and only 5183m on Mutawazin! **That&#39;s a 43% finger travel saving. What does that mean time wise?**
+
+### Time
+
+To measure the distance a finger needs to travel is easy however working out the time taken is very difficult. This is because firstly, for example, some fingers like the middle finger travel the same distance faster than the pinky finger. Second, it&#39;s expected that stronger fingers will press keys faster than weak fingers. Finally, each person has a different speed due to practise, hand and finger sizes and wrist position and possibly other factors. But, for the sake of comparison, I will assume (based loosely on this paper here) that it takes the &#39;average&#39; typist 0.25s to press a home key and a finger (regardless of type) will travel at a max speed of 8cm/s to press all other keys; this speed includes the time need to press the key, which would be miniscule compared to the time needed to travel to it.
+
+So how long would it take to type the Quran? On Apple that&#39;s 2403 minutes, on PC it&#39;s 2398 mins and on Mutawazin 1970 mins: **that&#39;s 7 hours 13 mins saved compared to Apple and 7 hrs 8 mins compared to PC.**
+
+Hence the same &#39;average&#39; person would achieve a relative speed of 36.5= wpm on Mutawain and 30 wpm on Apple and PC. **That&#39;s a 22% increase in speed!**
+
+(Note: although PC&#39;s distance is greater it takes less time to type compared to Apple due to three &#39;لا&#39; ligatures accessible via shift key. These ligatures are not accessible on Apple and are formed automatically by typingل and ا. On PC this saves time a very small amount of time as fewer keys need to be pressed compared to Apple.)
 
 ## Bigrams:
 
-The top 20 bigrams are listed below. There are a total of 1296 bigrams in Arabic (36^2). (All can be found in the statistical table.)
+The top 20 bigrams are listed below. There are a total of 1296 theoretical bigrams in Arabic (36^2). 1292 were actually detected in the corpus, this makes sense as the rules of Arabic grammar prevent pairs like ا and ا appearing together for example.
 
-| Frequency | Bigram |
-| --- | --- |
-| (&#39;ا&#39;, &#39;ل&#39;) | 6.2% |
-| (&#39;ا&#39;, &#39;ن&#39;) | 1.3% |
-| (&#39;ل&#39;, &#39;م&#39;) | 1.3% |
-| (&#39;ه&#39;, &#39;ا&#39;) | 1.2% |
-| (&#39;ل&#39;, &#39;ا&#39;) | 1.2% |
-| (&#39;م&#39;, &#39;ا&#39;) | 1.1% |
-| (&#39;و&#39;, &#39;ا&#39;) | 1.0% |
-| (&#39;ي&#39;, &#39;ن&#39;) | 0.9% |
-| (&#39;ل&#39;, &#39;ي&#39;) | 0.9% |
-| (&#39;م&#39;, &#39;ن&#39;) | 0.9% |
-| (&#39;ن&#39;, &#39;ا&#39;) | 0.9% |
-| (&#39;ع&#39;, &#39;ل&#39;) | 0.8% |
-| (&#39;و&#39;, &#39;ل&#39;) | 0.7% |
-| (&#39;أ&#39;, &#39;ن&#39;) | 0.7% |
-| (&#39;ف&#39;, &#39;ي&#39;) | 0.7% |
-| (&#39;ل&#39;, &#39;ى&#39;) | 0.7% |
-| (&#39;ل&#39;, &#39;ك&#39;) | 0.7% |
-| (&#39;ا&#39;, &#39;ت&#39;) | 0.7% |
-| (&#39;ا&#39;, &#39;ر&#39;) | 0.7% |
-| (&#39;ي&#39;, &#39;ا&#39;) | 0.6% |
+|| **Bigram** | **Percent** |
+| --- | --- | --- |
+| 1 | (&#39;ا&#39;, &#39;ل&#39;) | 8.25% |
+| 2 | (&#39;ل&#39;, &#39;م&#39;) | 1.63% |
+| 3 | (&#39;ل&#39;, &#39;ا&#39;) | 1.43% |
+| 4 | (&#39;ي&#39;, &#39;ة&#39;) | 1.25% |
+| 5 | (&#39;ف&#39;, &#39;ي&#39;) | 1.25% |
+| 6 | (&#39;ا&#39;, &#39;ن&#39;) | 1.22% |
+| 7 | (&#39;و&#39;, &#39;ا&#39;) | 1.17% |
+| 8 | (&#39;م&#39;, &#39;ن&#39;) | 1.11% |
+| 9 | (&#39;ا&#39;, &#39;ت&#39;) | 1.06% |
+| 10 | (&#39;م&#39;, &#39;ا&#39;) | 1.01% |
+| 11 | (&#39;ر&#39;, &#39;ا&#39;) | 0.91% |
+| 12 | (&#39;ا&#39;, &#39;ر&#39;) | 0.90% |
+| 13 | (&#39;ي&#39;, &#39;ن&#39;) | 0.86% |
+| 14 | (&#39;ل&#39;, &#39;ي&#39;) | 0.85% |
+| 15 | (&#39;ل&#39;, &#39;ت&#39;) | 0.80% |
+| 16 | (&#39;ر&#39;, &#39;ي&#39;) | 0.76% |
+| 17 | (&#39;ي&#39;, &#39;ا&#39;) | 0.74% |
+| 18 | (&#39;ع&#39;, &#39;ل&#39;) | 0.74% |
+| 19 | (&#39;ل&#39;, &#39;ى&#39;) | 0.73% |
+| 20 | (&#39;ه&#39;, &#39;ا&#39;) | 0.73% |
 
-The top 300 most frequent bigrams make up 82.3% of all bigrams analysed. I will use this to compare the keyboard designs.
+Firstly typing two letters using the same finger is slower then alternating fingers, this is also the case with the hands; it&#39;s faster to type with alternating between hands.
 
-Firstly typing two letters using the same finger is slower then alternating fingers, this is also the case with the hands. It&#39;s faster to type with alternating between hands.
+Of all the bigrams only 7% of the load will be typed by the same finger, compared to 10% for PC and 15% for Apple. This means there will be more alterations between the fingers which will increase efficiency and comfort because other fingers can move into position before they are needed.
 
-In Mutawazin only 29 in every 1000 bigrams typed will be done by the same finger. This is 36 and 30 for Apple and IBM respectively. Which means it&#39;s slightly easier on Mutawazin then Apple and a little more easier compared to IBM.
+The same principles applies to hands; the more alteration that occurs, the more comfortable and efficient the typing will be. On Mutawazin 43% of the load will be typed by the same hand compared to 46% on PC and 45% on Apple.
 
-109 in every 1000 bigrams typed will be by the same hand in Mutawazin, compared to 113 in Apple and 117 in IBM. So your hands will alternate more typing which is better for comfort and efficiency. Moreover the balance between the bigrams that will need to be typed by the same hand there is better in Mutawazin: for every 122 bigrams typed on the left hand the right hand will do only 100. Where as in IBM it is 40:100 and in Apple 49:100.
+What about bigrams what require the use of the shift key? 10 in every 1000 bigrams will be typed by the same finger and will require a «Shift Key» press either before or after. In PC it&#39;s 3 in every 1000 and in Apple 13 in every 1000. Again, although PC has fewer letters under the shift key it is more difficult to reach them. In order to reach certain letters like ذ, د , ج and ط, the pinky needs to move a significant distance. It would be easier to just press the «Shift Key» instead of shifting the entire hand to reach these letters.
 
-What about bigrams what require the use of the shift key? Only 4 in every 1000 bigrams will be typed by the same finger and will require a «Shift Key» press either before or after. In IBM it&#39;s 1 in every 1000 and in Apple 8 in every 1000. Although IBM has less letters under the shift key in order to reach for certain letters like ذ, د , ج and ط it would be easier to just press the «Shift Key» instead of shifting the hand a significant distance to reach these letters.
+Finally bigrams on the same hand involving the shift key: on Mutawazin the load is 2.78% and 2% on both PC and Apple. In this particular instance higher is better because it is easier to alternate hands less if using the shift key.
 
-Give the preceding analysis it is clear that Mutawazin is a more comfortable, efficient and faster to use keyboard compared to the Apple&#39;s and IBM&#39;s.
+In conclusion, Mutawazin&#39;s better performance in load management, finger and hand balance, fewer same finger and same hand bigrams make it a superior choice in keyboard layout. It&#39;s true that there will be a learning curve but the benefits for your hands, wrists and fingers and typing experience overall in the long term clearly present a monumental benefit.
+
+Check out all the data in the spreadsheet here.
+
+# Dedication
+
+To all writers, who, through their words, shed light on darkness. May this layout benefit you. Ameen.
+
+# References
+- Goldhahn, T. Eckart &amp; U. Quasthoff: Building Large Monolingual Dictionaries at the [Leipzig Corpora Collection](https://wortschatz.uni-leipzig.de/en/download/): From 100 to 200 Languages.
+ In: _Proceedings of the 8th International Language Resources and Evaluation (LREC&#39;12), 2012_
+- Hempstalk (2006). [The Great Keyboard Debate: QWERTY versus Dvorak](https://www.researchgate.net/publication/237105161_The_Great_Keyboard_Debate_QWERTY_versus_Dvorak).
