@@ -115,7 +115,7 @@ Letter and letter pair (bigram) frequencies were calculated from the Arabic Leip
 
 There are 28 letters in the Arabic alphabet but some letters like ء (hamza) take up to 5 different forms (ligatures) depending on their position in the word. More on this later.
 
-Based on the letter frequencies and the keyboard zones; the most frequent letters like ا and ل need to be placed on the home keys and rarely used letters like ظ (zah) and غ(ghain)can not justify their own key.
+Based on the letter frequencies and the keyboard zones; the most frequent letters like ا and ل need to be placed on the home keys and rarely used letters like ظ (zah) and غ(ghain) can not justify their own key.
 
 Some ligatures of ء like أ (_Alef with Hamza Above_) occur 503% more often than the pure form. In fact _Alef with Hamza Above_ is 19th on the table that&#39;s higher than 17 other letters and ligatures! These ligatures should be given their own key because they are very frequent.
 
@@ -177,7 +177,7 @@ Hence the same &#39;average&#39; person would achieve a relative speed of 36.5= 
 
 (Note: although PC&#39;s distance is greater it takes less time to type compared to Apple due to three &#39;لا&#39; ligatures accessible via shift key. These ligatures are not accessible on Apple and are formed automatically by typingل and ا. On PC this saves time a very small amount of time as fewer keys need to be pressed compared to Apple.)
 
-### Bigrams:
+### Bigrams
 
 The top 20 bigrams are listed below. There are a total of 1296 theoretical bigrams in Arabic (36^2). 1292 were actually detected in the corpus, this makes sense as the rules of Arabic grammar prevent pairs like ا and ا appearing together for example.
 
