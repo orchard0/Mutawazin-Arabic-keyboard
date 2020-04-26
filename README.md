@@ -25,12 +25,106 @@ Here’s the quick summary, full details and discussion follows the install inst
 
 # Installation
 
-## Linux
-Coming soon.
+
 ## Windows
 Coming soon.
 ## Mac
 Coming soon.
+
+## Linux
+
+Step 1) Open the Arabic XKB symbols file:
+`sudo gedit /usr/share/X11/xkb/symbols/ara`
+
+Step 2) Copy and paste the contents of Mutawazin's XKB symbols file [here](https://github.com/orchid6/Mutawazin-Arabic-keyboard/blob/master/Mutawazin%20Linux%20XKB) to the bottom of the Arabic XKB file. Save and exit.
+
+Step 3) Open `evdev.xml` to add Mutawazin as a layout option:
+`sudo gedit /usr/share/X11/xkb/rules/evdev.xml`
+
+Step 4) Add the layout declaration after the `<variantList>` tag. Save and exit. __Tip__: Once you've opened `evdev.xml` use `Ctrl+F` to find `<name>ara</name>` this will get you to the right place.
+
+Layout declaration:
+
+```    
+<variant>
+          <configItem>
+            <name>mutawazin</name>
+            <description>Arabic (Mutawazin)</description>
+          </configItem>
+        </variant>
+	       <variant>
+          <configItem>
+            <name>mutawazin_digits</name>
+            <description>Arabic (Mutawazin/digits)</description>
+          </configItem>
+        </variant>
+```
+
+`evdev.xml` before:
+```
+      <configItem>
+        <name>ara</name>
+        
+        <shortDescription>ar</shortDescription>
+        <description>Arabic</description>
+        <countryList>
+          <iso3166Id>AE</iso3166Id>
+          ...
+        </countryList>
+        <languageList>
+          <iso639Id>ara</iso639Id>
+        </languageList>
+      </configItem>
+      <variantList>
+        <variant>
+          <configItem>
+            <name>azerty</name>
+            <description>Arabic (azerty)</description>
+          </configItem>
+        </variant>
+        <variant>
+```
+`evdev.xml` after:
+```
+      <configItem>
+        <name>ara</name>
+        
+        <shortDescription>ar</shortDescription>
+        <description>Arabic</description>
+        <countryList>
+          <iso3166Id>AE</iso3166Id>
+          ...
+        </countryList>
+        <languageList>
+          <iso639Id>ara</iso639Id>
+        </languageList>
+      </configItem>
+      <variantList>
+        <variant>
+          <configItem>
+            <name>mutawazin</name>
+            <description>Arabic (Mutawazin)</description>
+          </configItem>
+        </variant>
+	       <variant>
+          <configItem>
+            <name>mutawazin_digits</name>
+            <description>Arabic (Mutawazin/digits)</description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>azerty</name>
+            <description>Arabic (azerty)</description>
+          </configItem>
+        </variant>
+        <variant>
+```
+Step 5) Reload xkb-data: `sudo dpkg-reconfigure xkb-data`
+
+Step 6) Add Mutawazin as the input source in the settings and enjoy!
+
+<img src="https://github.com/orchid6/Mutawazin-Arabic-keyboard/raw/master/Add%20an%20input%20source.png" alt="Add Mutawazin as the input source" width="600"/>
 
 # Full details and analysis:
 
