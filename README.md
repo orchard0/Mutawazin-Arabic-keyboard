@@ -9,14 +9,14 @@ Inspired by the design principles of OJ Bucao’s English *Workman keyboard layo
 Here’s the quick summary, full details and discussion follows the install instructions.
 
 ### Advantages: 
-* __63% load on the eight home keys__ -> less finger moment compared to PC (33%) and MAC (34%).
-* __80% load on the easiest key__: PC (41%) and Apple (45%). 
-* __4% load on the hardest to reach areas__ of the keyboard: PC and Apple (37%). 
+* __63% load on the eight home keys__ -> less finger moment. PC (33%) and Apple (34%).
+* __80% load on the easiest key__. PC (41%) and Apple (45%). 
+* __4% load on the hardest to reach areas__ of the keyboard. PC and Apple (37%). 
 * __Respects the natural motion of the fingers__ -> more comfort, speed and efficiency. Less lateral movement of the fingers and wrists -> less pain (if that’s an issue for you).
-* __Compact design__ to reduce finger travel: very, very low overall finger travel: save 43% in finger moment and 7 hrs 10 mins if typing out the Quran.
-* __7% same finger bigram load__ compared to PC (10%) and Apple (15%); more alternation between the fingers for faster typing.
-* __43% same hand bigram load__ compared to PC (46%) and Apple (45%); more alternation between the hands for faster typing.
-* __51/49 load balance between left and right hand__.
+* __Compact design__ to reduce finger travel: very, very low overall finger travel: __save 43% in finger moment and 7 hrs 10 mins__ if typing out the Quran.
+* __7% same finger bigram load__ -> more alternation between the fingers for faster typing. PC (10%) and Apple (15%).
+* __43% same hand bigram load__ -> more alternation between the hands for faster typing. PC (46%) and Apple (45%).
+* __50/50 load balance between left and right hand__. PC (39/61) and Apple (42/58).
 * __Familiar location for punctuation keys__.
 * __All eight diacritics (Tashkil) marks on *two* fingers__ arranged to maximise ease of use.
 
@@ -66,8 +66,6 @@ Moreover _vertical_ movement is natural to the fingers, whereas _horizontal_ and
 
 Letter and letter pair (bigram) frequencies were calculated from the Arabic Leipzig Corpora Collection (Leipzig University). This source consists mainly of Arabic news websites.
 
-**Stats**
-
 **Words** : 210,563,004
 
 **Arabic letters and ligatures** : 1,038,382,302
@@ -75,9 +73,6 @@ Letter and letter pair (bigram) frequencies were calculated from the Arabic Leip
 **Bigrams** : 821,555,724
 
 **Sentences** : 9.9 million.
-
-### Letter frequencies:
-
 
 || **Letter** | **Count** | **Percent** |
 | --- | --- | --- | --- |
@@ -132,7 +127,9 @@ Based on these frequencies and the design principles outlined above Mutawazin wa
 
 Let&#39;s do some statistical analysis and compare Mutawazin to the Apple&#39;s Arabic keyboard and IBM/PC&#39;s Arabic keyboard the standard keyboards on laptops and desktops worldwide.
 
-## The home keys and keyboard zones:
+## Analaysis
+
+### The home keys and keyboard zones
 
 Firstly, on the eight home keys, the natural resting place of the fingers, Mutawazin boasts a 61% load compared to 33% for Apple and 34% for PC. That&#39;s equivalent to pressing 63 in every 100 keys without moving a finger. This is more efficient, comfortable and so faster.
 
@@ -144,7 +141,7 @@ Finally, on Mutawazin there are no letter keystrokes in the most difficult zone,
 
 Mutawazin has been designed to reduce load and therefore the difficulty of typing as you move your fingers out of the core. This is what makes typing more comfortable and enjoyable.
 
-# Finger and hand loads and balance:
+### Finger and hand loads
 
 For maximum efficiency in typing the weight should be distributed between each type of finger whilst taking into account the relative strength of each finger. Give too much work to the index finger misses out on work that could be done on other fingers, especially the middle finger. There needs to be better weight distribution.
 
@@ -160,17 +157,17 @@ The weakest fingers are the pinkies, so the load on them needs to be minimised. 
 
 The balance between each hand is 51%/49% on Mutawazin! Compare this with Apple&#39;s left hand load of 42% and right hand load of 58% and PC&#39;s left hand load of 39% and right hand load of 61%.
 
-## Letters via «Shift Key».
+### Letters via «Shift Key».
 
-On Apple 4.4% of load is on letters accessed via the «Shift Key». On PC it&#39;s 2.6% and on Mutawazin it&#39;s 3.5%. This is a lower shift load then apple for the same number of keys. Yes you would press the shift key 1% less on PC but given it&#39;s full keyboard letter spread in effect it would be easier to press the shift key then to reach for some letters with the pinky on the edges of the keyboard.
+On Apple 4.4% of load are letters accessed via the «Shift Key». On PC it&#39;s 2.6% and on Mutawazin it&#39;s 3.5%. Mutawazin has a lower shift load then Apple for the same number of keys with letters (27 keys). The shift key load is 1% less on PC but given it&#39;s full keyboard letter spread (34 keys) in effect it would be easier to press the shift key then to reach for some letters with the pinky on the edges of the keyboard.
 
-## Finger travel and time saving:
+### Finger travel and time saving:
 
 The finger travel is the distance a finger moved from the centre of its home key to press the centre of the required key and then return home. If the next key is the same key as the previous key or if the key need is a home key no additional distance is added.
 
 To write the Quran (72,010 words) would require a distance of 9063 (meters) on Apple, 9090m on PC and only 5183m on Mutawazin! **That&#39;s a 43% finger travel saving. What does that mean time wise?**
 
-### Time
+#### Time
 
 To measure the distance a finger needs to travel is easy however working out the time taken is very difficult. This is because firstly, for example, some fingers like the middle finger travel the same distance faster than the pinky finger. Second, it&#39;s expected that stronger fingers will press keys faster than weak fingers. Finally, each person has a different speed due to practise, hand and finger sizes and wrist position and possibly other factors. But, for the sake of comparison, I will assume (based loosely on this paper here) that it takes the &#39;average&#39; typist 0.25s to press a home key and a finger (regardless of type) will travel at a max speed of 8cm/s to press all other keys; this speed includes the time need to press the key, which would be miniscule compared to the time needed to travel to it.
 
@@ -180,7 +177,7 @@ Hence the same &#39;average&#39; person would achieve a relative speed of 36.5= 
 
 (Note: although PC&#39;s distance is greater it takes less time to type compared to Apple due to three &#39;لا&#39; ligatures accessible via shift key. These ligatures are not accessible on Apple and are formed automatically by typingل and ا. On PC this saves time a very small amount of time as fewer keys need to be pressed compared to Apple.)
 
-## Bigrams:
+### Bigrams:
 
 The top 20 bigrams are listed below. There are a total of 1296 theoretical bigrams in Arabic (36^2). 1292 were actually detected in the corpus, this makes sense as the rules of Arabic grammar prevent pairs like ا and ا appearing together for example.
 
