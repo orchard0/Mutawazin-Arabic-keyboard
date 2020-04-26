@@ -1,0 +1,120 @@
+/////////////////////////////////////////////////////////////////////////////////
+//
+// Mutawazin Arabic keyboard layout: Efficient, speedy and comfortable
+//
+// 01 Ramadan 1441 / 25th April 2020 by Abd al-Rahman Latif
+//
+// To all writers, who, through their words, shed light on darkness. May this layout benefit you. Ameen.
+//
+// Visit https://github.com/orchid6/Mutawazin-Arabic-keyboard for full details.
+//
+// ┌─────┐
+// │ ٤ ‎٢ │   ‎٢ = Shift,  ‎٤ = Level3 + Shift
+// │ ‎‎٣ ‎١ │   ‎١ = Normal, ‎٣ = Level3
+// └─────┘
+// ┌─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬────────┐
+// │ ~   │   ! │   @ │   # │   $ │   ٪ │   ^ │   & │   * │   ) │   ( │   _ │   + │ ⌫ Back-│
+// │ `   │   ١ │ ‎  ٢ │ ‎  ٣ │   ‎٤ │   ‎٥ │   ‎٦ │   ‎٧ │   ‎٨ │   ‎٩ │   ‎٠ │   - │   = │  space │
+// ├─────┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬──────┤
+// │       │ ‎‎    │   غ │   ‎ ُ │    ٌ │   ‎ ْ │     │ گ‎   │ › ‎» │ ‹‎‎ ‎« │    ‎ │   } │   { │ Enter│
+// │Tab ↹  │   ش │   ‎ع │   ‎د │   ‎ة │   ‎‎خ │ ‎  ص │‎ ک‎ ك │ ‎  ق │ ‎  س │   ‎ح │   ] │   [ │   ⏎  │
+// ├───────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┐     │
+// │        │   ‎ؤ‎ │ ث   │    َ │    ً │   ‎ ّ │  ٓ ‎آ │   ‎ئ │   ‎ء │   ‎ز │   : │   ‎؛ │ |   │     │
+// │Caps ⇬  │   ‎و │   ‎ت │   ‎ل │   ‎م │   ‎ذ │   ‎ى │   ‎ي │ ٰ  ‎ا │   ‎ر │   ‎ن │   ‎" │ \   │     │
+// ├────────┴──┬──┴──┬──┴──┬──┴──┬──┴──┬──┴──┬──┴──┬──┴──┬──┴──┬──┴──┬──┴──┬──┴─────┴─────┤
+// │           │‎ چ   │   ‎ظ │ ‎پ ‎ ِ ‎│ ڤ‎  ٍ │     │  ٕ أ‎ │   ـ‎ │   > │   < │   ؟‎ │              │
+// │Shift ⇧    │   ‎ج │   ‎ط │   ‎ب │   ‎ف ‎│   ض │  ٔ ‎أ │   ‎ه │ ‎  ، │   ‎۔ │   / │Shift ⇧       │
+// ├──────┬────┴─┬───┴──┬──┴─────┴─────┴─────┴─────┴─────┴────┬┴─────┼─────┴┬──────┬──────┤
+// │      │      │      │                                     │      │      │      │      │
+// │Ctrl  │Meta  │Alt   │             Space                   │AltGr⇮│Meta  │Menu  │  Ctrl│
+// └──────┴──────┴──────┴─────────────────────────────────────┴──────┴──────┴──────┴──────┘
+//
+// LSGT -> Normal: Right-To-Left mark (U200F) 
+// LSGT -> Shift: Left-To-Right mark (U200E)
+//
+// BKSL -> Level3: Right-To-Left mark (U200F)
+// BKSL -> Level3 + Shift: Left-To-Right mark (U200E)
+//
+// SPACE -> Shift: Zero Width Joiner (U200D)
+// SPACE -> Level3: Zero Width Non-Joiner (U200C)
+//
+// Generated keyboard layout file with the Keyboard Layout Editor.
+// For more about the software, see http://code.google.com/p/keyboardlayouteditor
+//
+/////////////////////////////////////////////////////////////////////////////////
+
+partial alphanumeric_keys
+xkb_symbols "mutawazin"
+{
+	name[Group1] = "Arabic (Mutawazin)";
+	key <AE01> {  [               1,          exclam      ]     };
+	key <AE02> {  [               2,              at      ]     };
+	key <AE03> {  [               3,      numbersign      ]     };
+	key <AE04> {  [               4,          dollar      ]     };
+	key <AE05> {  [               5,         percent      ]     };
+	key <AE06> {  [               6,     asciicircum      ]     };
+	key <AE07> {  [               7,       ampersand      ]     };
+	key <AE08> {  [               8,        asterisk      ]     };
+	key <AE09> {  [               9,      parenright      ]     };
+	key <AE10> {  [               0,       parenleft      ]     };
+	key <AE11> {  [           minus,      underscore      ]     };
+	key <AE12> {  [           equal,            plus      ]     };
+	key <AB01> { [    Arabic_jeem,       NoSymbol,   Arabic_tcheh, NoSymbol                 ] }; // ج  چ 
+	key <AB02> { [     Arabic_tah,     Arabic_zah, NoSymbol, NoSymbol                                ] }; // ط ظ 
+	key <AB03> { [     Arabic_beh,   Arabic_kasra,     Arabic_peh, NoSymbol                ] }; // ب ِ پ 
+	key <AB04> { [     Arabic_feh, Arabic_kasratan,     Arabic_veh, NoSymbol                 ] }; // ف ٍ ڤ 
+	key <AB05> { [     Arabic_dad, NoSymbol, NoSymbol, NoSymbol                                                 ] }; // ض 
+	key <AB06> { [ Arabic_hamzaonalef, Arabic_hamzaunderalef, Arabic_hamza_above, Arabic_hamza_below ] }; // أ إ ٔ ٕ 
+	key <AB07> { [      Arabic_ha, Arabic_tatweel, NoSymbol, NoSymbol                                 ] }; // ه ـ 
+	key <AB08> { [   Arabic_comma,        greater, NoSymbol, NoSymbol                                 ] }; // ، > 
+	key <AB09> { [ period,           less, NoSymbol, NoSymbol                                 ] }; // ۔ < 
+	key <AB10> { [          slash, Arabic_question_mark, NoSymbol, NoSymbol                                 ] }; // / ؟ 
+	key <AC01> { [     Arabic_waw, Arabic_hamzaonwaw, NoSymbol, NoSymbol                                 ] }; // و ؤ 
+	key <AC02> { [     Arabic_teh,    Arabic_theh, NoSymbol, NoSymbol                                 ] }; // ت ث 
+	key <AC03> { [     Arabic_lam, Arabic_fatha, NoSymbol, NoSymbol                                 ] }; // ل  َ
+	key <AC04> { [    Arabic_meem,   Arabic_fathatan, NoSymbol, NoSymbol                                 ] }; // م  ً
+	key <AC05> { [    Arabic_thal,  Arabic_shadda, NoSymbol, NoSymbol                                 ] }; // ذ ّ 
+	key <AC06> { [ Arabic_alefmaksura, Arabic_maddaonalef, Arabic_madda_above, NoSymbol                 ] }; // ى آ ٓ 
+	key <AC07> { [     Arabic_yeh, Arabic_hamzaonyeh, NoSymbol, NoSymbol                                 ] }; // ي ئ 
+	key <AC08> { [    Arabic_alef,   Arabic_hamza, Arabic_superscript_alef, NoSymbol ] }; // ا ء  ٰ
+	key <AC09> { [      Arabic_ra,    Arabic_zain, NoSymbol, NoSymbol                                 ] }; // ر ز 
+	key <AC10> { [    Arabic_noon,          colon, NoSymbol, NoSymbol                                 ] }; // ن   
+	key <AC11> { [       quotedbl,     Arabic_semicolon                                 ] }; // " ؛ 
+	key <AD01> { [   Arabic_sheen, NoSymbol, NoSymbol, NoSymbol                                                 ] }; // ش 
+	key <AD02> { [     Arabic_ain,   Arabic_ghain,  NoSymbol, NoSymbol                                 ] }; // ع غ 
+	key <AD03> { [     Arabic_dal,   Arabic_damma,  NoSymbol, NoSymbol                                 ] }; // د ُ 
+	key <AD04> { [ Arabic_tehmarbuta, Arabic_dammatan,  NoSymbol, NoSymbol                                 ] }; // ة ٌ 
+	key <AD05> { [    Arabic_khah,   Arabic_sukun,  NoSymbol, NoSymbol                                 ] }; // خ ْ 
+	key <AD06> { [     Arabic_sad,  NoSymbol, NoSymbol,  NoSymbol                                                 ] }; // ص 
+	key <AD07> { [     Arabic_kaf,       NoSymbol,   Arabic_keheh,     Arabic_gaf ] }; // ك  ک گ 
+	key <AD08> { [     Arabic_qaf, guillemotright, U203A, NoSymbol                                 ] }; // ق » 
+	key <AD09> { [   Arabic_seen, guillemotleft, U2039, NoSymbol                                                  ] }; // س «
+	key <AD10> { [     Arabic_hah,  NoSymbol, NoSymbol, NoSymbol                                  ] }; // ح  
+	key <AD11> { [   bracketright,     braceright,  NoSymbol, NoSymbol                                 ] }; // ] } 
+	key <AD12> { [    bracketleft,      braceleft,  NoSymbol, NoSymbol                                 ] }; // [ { 
+	key <BKSL> { [      backslash,            bar,          U200F,          U200E ] }; // \ | ‏ ‎ 
+	key <LSGT> { [          U200F,          U200E,  NoSymbol, NoSymbol                                 ] }; // ‏ ‎ 
+	key <TLDE> { [          grave,     asciitilde,  NoSymbol, NoSymbol                                 ] }; // ` ~ 
+};
+
+partial alphanumeric_keys
+xkb_symbols "mutawazin_digits"
+{
+	name[Group1] = "Arabic (Mutawazin/digits)";
+	include "ara(digits_KP)"
+	include "ara(mutawazin)"
+	key <AE01> { [       Arabic_1,         exclam                                 ] }; // ١ ! 
+	key <AE02> { [       Arabic_2,             at                                 ] }; // ٢ @ 
+	key <AE03> { [       Arabic_3,     numbersign                                 ] }; // ٣ # 
+	key <AE04> { [       Arabic_4,         dollar                                 ] }; // ٤ $ 
+	key <AE05> { [       Arabic_5, Arabic_percent                                 ] }; // ٥ ٪ 
+	key <AE06> { [       Arabic_6,    asciicircum                                 ] }; // ٦ ^ 
+	key <AE07> { [       Arabic_7,      ampersand                                 ] }; // ٧ & 
+	key <AE08> { [       Arabic_8,       asterisk                                 ] }; // ٨ * 
+	key <AE09> { [       Arabic_9,     parenright                                 ] }; // ٩ ) 
+	key <AE10> { [       Arabic_0,      parenleft                                 ] }; // ٠ ( 
+	key <AE11> { [          minus,     underscore                                 ] }; // - _ 
+	key <AE12> { [          equal,           plus                                 ] }; // = + 
+};
+/////////////////////////////////////////////////////////////////////////////////
+
