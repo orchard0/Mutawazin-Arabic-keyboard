@@ -27,7 +27,7 @@ Here’s the quick summary, full details and discussion follows the install inst
 
 
 ## Windows
-Step 1) Download the Windows intallation files [here](https://github.com/orchid6/Mutawazin-Arabic-keyboard/tree/master/Windows)
+Step 1) Download the Windows intallation files [here](https://github.com/orchid6/Mutawazin-Arabic-keyboard/releases/download/v1/Windows.zip)
 
 Step 2) Run the `setup.exe`
 
