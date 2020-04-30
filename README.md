@@ -319,7 +319,7 @@ Finally bigrams on the same hand involving the shift key: on Mutawazin the load 
 
 In conclusion, Mutawazin&#39;s better performance in load management, finger and hand balance, fewer same finger and same hand bigrams make it a superior choice in keyboard layout. It&#39;s true that there will be a learning curve but the benefits for your hands, wrists and fingers and typing experience overall in the long term clearly present a monumental benefit.
 
-Check out all the data in the spreadsheet here.
+Check out all the data in the spreadsheet [here](https://github.com/orchid6/Mutawazin-Arabic-keyboard/blob/master/Full%20Stats.xlsx?raw=true).
 
 # Dedication
 
