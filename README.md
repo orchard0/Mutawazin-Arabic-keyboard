@@ -33,6 +33,8 @@ Step 2) Run the `setup.exe`
 
 Step 3) Open `Settings` -> Click on `Time & Language`-> Click on `Language`-> Under the "Preferred languages" section, select the Arabic or default language -> Click the `Options` button -> Under the "Keyboards" section, click the `Add a keyboard` button -> Select Mutawazin keyboard layout -> Well done!
 
+Step 3) Alternatively check out this Microsoft [guide to adding layouts](https://support.microsoft.com/en-us/help/258824/how-to-change-your-keyboard-layout).
+
 Step 4) `Windows key` + `Spacebar` keyboard shortcut to quickly change between the available keyboard layouts.
 
 ## Mac
