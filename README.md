@@ -27,7 +27,14 @@ Here’s the quick summary, full details and discussion follows the install inst
 
 
 ## Windows
-Coming soon.
+Step 1) Download the Windows intallation files [here](https://github.com/orchid6/Mutawazin-Arabic-keyboard/tree/master/Windows)
+
+Step 2) Run the `setup.exe`
+
+Step 3) Open `Settings` -> Click on `Time & Language`-> Click on `Language`-> Under the "Preferred languages" section, select the Arabic or default language -> Click the `Options` button -> Under the "Keyboards" section, click the `Add a keyboard` button -> Select Mutawazin keyboard layout -> Well done!
+
+Step 4) `Windows key` + `Spacebar` keyboard shortcut to quickly change between the available keyboard layouts.
+
 ## Mac
 Coming soon.
 
@@ -122,9 +129,11 @@ Layout declaration:
 ```
 Step 5) Reload xkb-data: `sudo dpkg-reconfigure xkb-data`
 
-Step 6) Add Mutawazin as the input source in the settings and enjoy!
+Step 6) Add Mutawazin as the input source in the settings.
 
 <img src="https://github.com/orchid6/Mutawazin-Arabic-keyboard/raw/master/Add%20an%20input%20source.png" alt="Add Mutawazin as the input source" width="600"/>
+
+Step 7) `Windows/Super key` + `Spacebar` keyboard shortcut to quickly change between the available keyboard layouts.
 
 # Full details and analysis:
 
