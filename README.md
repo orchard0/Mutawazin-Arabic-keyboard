@@ -4,7 +4,7 @@
 
 Inspired by the design principles of OJ Bucao’s English *Workman keyboard layout* I redesigned the Arabic keyboard layout with comfort, speed and efficiency in mind.
 
-![Mutawazin Keyboard Layout](https://github.com/orchid6/Mutawazin-Arabic-keyboard/blob/master/Mutawazin%20Arabic%20Keyboard.png) 
+![Mutawazin Keyboard Layout](https://raw.githubusercontent.com/orchid6/Mutawazin-Arabic-keyboard/master/Images/Mutawazin%20Arabic%20Keyboard.png) 
 
 Here’s the quick summary, full details and discussion follows the install instructions.
 
@@ -133,7 +133,7 @@ Step 5) Reload xkb-data: `sudo dpkg-reconfigure xkb-data`
 
 Step 6) Add Mutawazin as the input source in the settings.
 
-<img src="https://github.com/orchid6/Mutawazin-Arabic-keyboard/raw/master/Add%20an%20input%20source.png" alt="Add Mutawazin as the input source" width="600"/>
+<img src="https://raw.githubusercontent.com/orchid6/Mutawazin-Arabic-keyboard/master/Images/Add%20an%20input%20source.png" alt="Add Mutawazin as the input source" width="600"/>
 
 Step 7) `Windows/Super key` + `Spacebar` keyboard shortcut to quickly change between the available keyboard layouts.
 
@@ -147,8 +147,8 @@ _OJ Bucao_ correctly observed in his design of the (_English) Workman keyboard l
 
 Moreover _vertical_ movement is natural to the fingers, whereas _horizontal_ and _diagonal_ stretching is uncomfortable. So the most occurring letters need to be on keys that are the easiest to press; this will increase comfort, efficiency (finger travel) and therefore speed. Based on these observations the keyboard can be divided into 5 zones of comfort.
 
-![Keyboard comfort zones](https://github.com/orchid6/Mutawazin-Arabic-keyboard/blob/master/Keyboard%20zones%20of%20comfort.png)
-<img src="https://github.com/orchid6/Mutawazin-Arabic-keyboard/blob/master/Keyboard%20zones%20of%20comfort%20legend.png" alt="Legend" width="200"/>
+![Keyboard comfort zones](https://raw.githubusercontent.com/orchid6/Mutawazin-Arabic-keyboard/master/Images/Keyboard%20zones%20of%20comfort.png)
+<img src="https://raw.githubusercontent.com/orchid6/Mutawazin-Arabic-keyboard/master/Images/Keyboard%20zones%20of%20comfort%20legend.png" alt="Legend" width="200"/>
 
 1) The keys in the Core Zone are the easiest to press. The zone mainly consists of the home keys plus stretching for the middle and ring fingers and folding for the index finger.
 
