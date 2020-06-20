@@ -1,4 +1,4 @@
-# لوحة المفاتيح المتوازنة – Mutawazin keyboard layout
+# لوحة المفاتيح المتوازنة – Mutawazin Arabic keyboard
 
 ## A comfortable, speedy and efficient Arabic keyboard layout
 
