@@ -6,7 +6,7 @@ Inspired by the design principles of OJ Bucao’s English *Workman keyboard layo
 
 ![Mutawazin Keyboard Layout](https://raw.githubusercontent.com/orchid6/Mutawazin-Arabic-keyboard/master/Images/Mutawazin%20Arabic%20Keyboard.png) 
 
-Here’s the quick summary, full details and discussion follows the install instructions.
+Here’s the quick summary, full details and discussion are after the install instructions.
 
 ### Advantages: 
 * __63% key load on the eight home keys;__ means more comfort, speed and efficiency. PC (33%) and Apple (34%).
