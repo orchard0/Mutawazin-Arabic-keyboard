@@ -9,19 +9,18 @@ Inspired by the design principles of OJ Bucao’s English *Workman keyboard layo
 Here’s the quick summary, full details and discussion follows the install instructions.
 
 ### Advantages: 
-* __63% load on the eight home keys__ -> less finger moment. PC (33%) and Apple (34%).
-* __80% load on the easiest key__. PC (41%) and Apple (45%). 
-* __4% load on the hardest to reach areas__ of the keyboard. PC and Apple (37%). 
-* __Respects the natural motion of the fingers__ -> more comfort, speed and efficiency. Less lateral movement of the fingers and wrists -> less pain (if that’s an issue for you).
-* __Compact design__ to reduce finger travel: very, very low overall finger travel: __save 43% in finger moment and 7 hrs 10 mins__ if typing out the Quran.
-* __7% same finger bigram load__ -> more alternation between the fingers for faster typing. PC (10%) and Apple (15%).
-* __43% same hand bigram load__ -> more alternation between the hands for faster typing. PC (46%) and Apple (45%).
-* __50/50 load balance between left and right hand__. PC (39/61) and Apple (42/58).
+* __63% key load on the eight home keys;__ means more comfort, speed and efficiency. PC (33%) and Apple (34%).
+* __80% load on the easiest keys;__  means more comfort, speed and efficiency. PC (41%) and Apple (45%). 
+* __Only 4% load on the hardest to press keys__; means less finger and wrist strain. PC (37%) and Apple (37%). 
+* __The layout respects the natural motion of the fingers__; less lateral movement of the fingers and wrists means more comfort, speed and efficiency.
+* The compact design significantly reduces finger travel; __save 3880 meters in finger moment (43%) and 7 hrs 10 mins__ of typing time if typing out the Quran compared to PC and Apple. (See below for more details.)
+* __7% same finger bigram load and 43% same hand bigram load;__ means more alternation between the fingers and the hands for faster typing. PC (10%/46%) and Apple (15%/45%).
+* __50%/50% load balance between left and right hand__. PC (39%/61%) and Apple (42%/58%).
 * __Familiar location for punctuation keys__.
-* __All eight diacritics (Tashkil) marks on *two* fingers__ arranged to maximise ease of use.
+* __All eight diacritics (Tashkil) marks on *two* fingers__ for super ease access whether you add them as you go or afterwards.
 
 #### Disadvantages:
-* Learn a new layout – but remember you only need to __learn once but move your fingers and wrists each time__. It'll feel so good to learn something new and benefit yourself.
+* Learn a new layout – but remember you only need to __learn once but move your fingers and wrists each time__. It'll feel so good to learn something new that will benefit you significantly.
 
 # Installation
 
@@ -38,7 +37,7 @@ Step 3) Alternatively check out this Microsoft [guide to adding layouts](https:/
 Step 4) `Windows key` + `Spacebar` keyboard shortcut to quickly change between the available keyboard layouts.
 
 ## Mac
-Coming soon.
+Coming soon. (Any help with this would be appreciated.)
 
 ## Linux
 
@@ -129,6 +128,7 @@ Layout declaration:
         </variant>
         <variant>
 ```
+
 Step 5) Reload xkb-data: `sudo dpkg-reconfigure xkb-data`
 
 Step 6) Add Mutawazin as the input source in the settings.
@@ -274,13 +274,13 @@ To write the Quran (72,010 words) would require a distance of 9063 (meters) on A
 
 #### Time
 
-To measure the distance a finger needs to travel is easy however working out the time taken is very difficult. This is because firstly, for example, some fingers like the middle finger travel the same distance faster than the pinky finger. Second, it&#39;s expected that stronger fingers will press keys faster than weak fingers. Finally, each person has a different speed due to practise, hand and finger sizes and wrist position and possibly other factors. But, for the sake of comparison, I will assume (based loosely on this paper here) that it takes the &#39;average&#39; typist 0.25s to press a home key and a finger (regardless of type) will travel at a max speed of 8cm/s to press all other keys; this speed includes the time need to press the key, which would be miniscule compared to the time needed to travel to it.
+To measure the distance a finger needs to travel is easy however working out the time taken is very difficult. This is because firstly, for example, some fingers like the middle finger travel the same distance faster than the pinky finger. Second, it&#39;s expected that stronger fingers will press keys faster than weak fingers. Finally, each person has a different speed due to practise, hand and finger sizes and wrist position and possibly other factors. But, for the sake of comparison, I will assume (based loosely on this paper [here](https://www.researchgate.net/publication/237105161_The_Great_Keyboard_Debate_QWERTY_versus_Dvorak)) that it takes the &#39;average&#39; typist 0.25s to press a home key and a finger (regardless of type) will travel at a max speed of 8cm/s to press all other keys; this speed includes the time need to press the key, which would be miniscule compared to the time needed to travel to it.
 
 So how long would it take to type the Quran? On Apple that&#39;s 2403 minutes, on PC it&#39;s 2398 mins and on Mutawazin 1970 mins: **that&#39;s 7 hours 13 mins saved compared to Apple and 7 hrs 8 mins compared to PC.**
 
-Hence the same &#39;average&#39; person would achieve a relative speed of 36.5= wpm on Mutawain and 30 wpm on Apple and PC. **That&#39;s a 22% increase in speed!**
+Hence the same &#39;average&#39; person would achieve a relative speed of 36.5 wpm on Mutawain and 30 wpm on Apple and PC. **That&#39;s a 22% increase in speed!**
 
-(Note: although PC&#39;s distance is greater it takes less time to type compared to Apple due to three &#39;لا&#39; ligatures accessible via shift key. These ligatures are not accessible on Apple and are formed automatically by typingل and ا. On PC this saves time a very small amount of time as fewer keys need to be pressed compared to Apple.)
+(Note: although PC&#39;s distance is greater it takes less time to type compared to Apple due to three &#39;لا&#39; ligatures accessible via shift key. These ligatures are not accessible on Apple and are formed automatically by typingل and ا. On PC this saves a very small amount of time as fewer keys need to be pressed compared to Apple.)
 
 ### Bigrams
 
@@ -318,6 +318,9 @@ The same principles applies to hands; the more alteration that occurs, the more 
 What about bigrams what require the use of the shift key? 10 in every 1000 bigrams will be typed by the same finger and will require a «Shift Key» press either before or after. In PC it&#39;s 3 in every 1000 and in Apple 13 in every 1000. Again, although PC has fewer letters under the shift key it is more difficult to reach them. In order to reach certain letters like ذ, د , ج and ط, the pinky needs to move a significant distance. It would be easier to just press the «Shift Key» instead of shifting the entire hand to reach these letters.
 
 Finally bigrams on the same hand involving the shift key: on Mutawazin the load is 2.78% and 2% on both PC and Apple. In this particular instance higher is better because it is easier to alternate hands less if using the shift key.
+
+### Conclusion
+
 
 In conclusion, Mutawazin&#39;s better performance in load management, finger and hand balance, fewer same finger and same hand bigrams make it a superior choice in keyboard layout. It&#39;s true that there will be a learning curve but the benefits for your hands, wrists and fingers and typing experience overall in the long term clearly present a monumental benefit.
 
