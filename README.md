@@ -13,7 +13,7 @@ Here’s the quick summary, full details and discussion are after the install in
 * __80% load on the easiest keys;__  means more comfort, speed and efficiency. PC (41%) and Apple (45%). 
 * __Only 4% load on the hardest to press keys__; means less finger and wrist strain. PC (37%) and Apple (37%). 
 * __The layout respects the natural motion of the fingers__; less lateral movement of the fingers and wrists means more comfort, speed and efficiency.
-* The compact design significantly reduces finger travel; __save 3880 meters in finger moment (43%) and 7 hrs 10 mins__ of typing time if typing out the Quran compared to PC and Apple. (See below for more details.)
+* The compact design significantly reduces finger travel; __save 3880 meters in finger movment (43%) and 7 hrs 10 mins__ of typing time if typing out the Quran compared to PC and Apple. (See below for more details.)
 * __7% same finger bigram load and 43% same hand bigram load;__ means more alternation between the fingers and the hands for faster typing. PC (10%/46%) and Apple (15%/45%).
 * __50%/50% load balance between left and right hand__. PC (39%/61%) and Apple (42%/58%).
 * __Familiar location for punctuation keys__.
